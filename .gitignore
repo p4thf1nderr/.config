@@ -1,0 +1,11 @@
+# Игнорировать всё
+*
+
+# Разрешить папку my_folder и всё внутри неё
+!nvim/
+!nvim/**
+!zed/
+!zed/**
+!.gitignore
+
+!.DS_Store
