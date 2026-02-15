@@ -3,3 +3,4 @@
 
 # Но разрешить конкретный файл
 !setting.json
+!keymap.json
