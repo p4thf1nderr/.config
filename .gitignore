@@ -5,6 +5,7 @@
 !nvim/
 !nvim/**
 !zed/
+/zed/keymap.json
 !zed/**
 !.gitignore
 

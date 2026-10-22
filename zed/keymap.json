@@ -7,6 +7,12 @@
 // from the command palette.
 [
   {
+    "context": "Editor",
+    "bindings": {
+      "cmd-alt-i": "editor::ToggleEditPrediction",
+    },
+  },
+  {
     "context": "Workspace",
     "bindings": {
       // "shift shift": "file_finder::Toggle"
@@ -24,4 +30,23 @@
       "ctrl-w k": "terminal_panel::ToggleFocus",
     },
   },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-w shift-h": "vim::ResizePaneLeft",
+      "ctrl-w shift-l": "vim::ResizePaneRight",
+      "ctrl-w shift-k": "vim::ResizePaneUp",
+      "ctrl-w shift-j": "vim::ResizePaneDown",
+    },
+  },
+  {
+    "bindings": {
+      "cmd-r": [
+        "task::Spawn",
+        {
+          "task_name": "Go Run Current File"
+        }
+      ]
+    }
+  }
 ]
